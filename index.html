@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">   
+<head>
+
+    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway+Dots" rel="stylesheet" type="text/css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <link href='https://fonts.googleapis.com/css?family=Radley' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+        <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel=“stylesheet” href=“node_modules/animate.css/animate.css”>
+    <link rel=“stylesheet” type=“text/css” href=“animate.css”>
+    <link rel=“stylesheet” type=“text/css” href=“https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css”>
+    <script src=“node_modules/wowjs/dist/wow.min.js”></script>
+   
+    
+
+    <style>
+        /* Section 1 */
+
+        body {
+            position: relative;
+            font-family: cursive font-family: 'Montserrat', sans-serif;
+            opacity: 0.8;
+
+        }
+
+        #section1 {
+            background-image: url(images/stefen-tan-753797-unsplash.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+
+        }
+
+        #section2 {
+            background-color: white;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+
+        }
+
+        #section3 {
+            background-image: url(images/my-life-through-a-lens-110632-unsplash.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+
+        }
+
+        #head1 {
+            text-align: center;
+            color: white;
+            text-transform: capitalize;
+            margin-top: 200px;
+            font-size: 65px;
+            font-weight: 900px;
+
+        }
+
+        #head2 {
+            text-align: center;
+            color: black;
+            text-transform: capitalize;
+            font-size: 45px;
+            font-weight: bold;
+
+        }
+
+        #head3 {
+            text-align: center;
+            color: white;
+            text-transform: capitalize;
+            font-size: 45px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: bold;
+        }
+
+        #head4 {
+            text-align: center;
+            color: #ffb300;
+            text-transform: capitalize;
+            font-size: 25px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: bold;
+        }
+
+        .open {
+            position: fixed;
+            top: 40px;
+            right: 40px;
+            width: 50px;
+            height: 50px;
+            display: block;
+            cursor: pointer;
+            transition: opacity 0.2s linear;
+
+        }
+
+        .open:hover {
+            opacity: 0.6;
+        }
+
+        .open span {
+            display: block;
+            float: left;
+            clear: both;
+            height: 4px;
+            width: 40px;
+            border-radius: 40px;
+            background-color: #fff;
+            position: absolute;
+            right: 3px;
+            top: 3px;
+            overflow: hidden;
+            transition: all 0.4s ease;
+        }
+
+        .open span:nth-child(1) {
+            margin-top: 10px;
+            z-index: 9;
+        }
+
+        .open span:nth-child(2) {
+            margin-top: 25px;
+        }
+
+        .open span:nth-child(3) {
+            margin-top: 40px;
+        }
+
+        .sub-menu {
+            transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+            height: 0;
+            width: 0;
+            right: 0;
+            top: 0;
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0.54);
+            border-radius: 50%;
+            z-index: 18;
+            overflow: hidden;
+        }
+
+        .sub-menu li {
+            display: block;
+            float: right;
+            clear: both;
+            height: auto;
+            margin-right: -160px;
+            transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+            opacity: 0.9;
+        }
+
+        .sub-menu li:first-child {
+            margin-top: 180px;
+        }
+
+        .sub-menu li:nth-child(1) {
+            -webkit-transition-delay: 0.05s;
+        }
+
+        .sub-menu li:nth-child(2) {
+            -webkit-transition-delay: 0.10s;
+        }
+
+        .sub-menu li:nth-child(3) {
+            -webkit-transition-delay: 0.15s;
+        }
+
+        .sub-menu li:nth-child(4) {
+            -webkit-transition-delay: 0.20s;
+        }
+
+        .sub-menu li:nth-child(5) {
+            -webkit-transition-delay: 0.25s;
+        }
+
+        .sub-menu li a {
+            color: #ffb300;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 16px;
+            font-weight: 900px;
+            width: 100%;
+            display: block;
+            float: left;
+            line-height: 40px;
+        }
+
+        .oppenned .sub-menu {
+            opacity: 1;
+            height: 400px;
+            width: 400px;
+        }
+
+        .oppenned span:nth-child(2) {
+            overflow: visible;
+        }
+
+        .oppenned span:nth-child(1),
+        .oppenned span:nth-child(3) {
+            z-index: 100;
+            transform: rotate(45deg);
+        }
+
+        .oppenned span:nth-child(1) {
+            transform: rotate(45deg) translateY(12px) translateX(12px);
+        }
+
+        .oppenned span:nth-child(2) {
+            height: 400px;
+            width: 400px;
+            right: -160px;
+            top: -160px;
+            border-radius: 50%;
+            background-color: rgb(0, 0, 0);
+            opacity: 0.9;
+        }
+
+        .oppenned span:nth-child(3) {
+            transform: rotate(-45deg) translateY(-10px) translateX(10px);
+        }
+
+        .oppenned li {
+            margin-right: 168px;
+        }
+
+        #ebutton {
+            position: center;
+            padding: 15px 25px;
+            font-size: 24px;
+            text-align: center;
+            cursor: pointer;
+            outline: none;
+            color: #fff;
+            background-color: #ffb300;
+            border: none;
+            border-radius: 15px;
+           
+            margin-top: 100px;
+            margin-right: 40%;
+            margin-left: 45%;
+        }
+
+        #ebutton:hover {
+            background-color: #ffe54c;
+        }
+
+        #ebutton:active {
+            background-color: white;
+            box-shadow: 0 2px #ffb300;
+            opacity: 0.8;
+            transform: translateY(4px);
+        }
+
+        /* Section 2 */
+
+        body {
+            position: relative;
+            font-family: 'Montserrat', sans-serif;
+
+        }
+
+
+        #bars {
+            margin: 2em auto;
+            max-width: 960px;
+            overflow: hidden;
+        }
+
+        .bar {
+            float: left;
+            width: 20%;
+            text-align: center;
+            color: black;
+        }
+
+        .bar h3 {
+            font-size: 1.4em;
+            font-weight: normal;
+            margin: 0;
+            text-transform: uppercase;
+
+        }
+
+        .bar-circle {
+            display: block;
+            margin: 0.7em auto;
+        }
+
+
+        /* Section 3 */
+
+        html,
+        body {
+            margin: 0;
+            background-color: white;
+            font-family: 'Montserrat', sans-serif;
+
+        }
+
+        section #services {
+            text-align: center;
+            transform: translatez(0);
+            margin-top: 300px;
+            margin-right: 150px;
+            margin-left: 80px;
+
+
+        }
+
+        section #services h2 {
+            font-family: 'Montserrat', sans-serif;
+            margin: 80px 0px 40px;
+            color: #ffb300;
+            opacity: 0.3;
+            font-size: 2.4em;
+            text-transform: uppercase;
+            text-align: center;
+
+        }
+
+        section #services li {
+            width: 120px;
+            height: 140px;
+            display: inline-block;
+            margin: 20px;
+            list-style: none;
+        }
+
+        section #services li div {
+            width: 120px;
+            height: 120px;
+            color: #74d4b3;
+            font-size: 3.4em;
+            text-align: center;
+            line-height: 120px;
+            background-color: #ffb300;
+            transition: all 0.5s ease;
+        }
+
+        section #services li a {
+            color: white;
+
+        }
+
+        section #services li div:hover {
+            transform: rotate(360deg);
+            border-radius: 100px;
+
+        }
+
+        section #services li span {
+            width: 120px;
+            height: 20px;
+            display: block;
+            padding: 15px 0px;
+            color: white;
+            text-transform: uppercase;
+            font-size: 1.2em;
+            text-align: center;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<div class="wow open animated flipInY delay-2s">
+    <span class="cls"></span>
+    <span>
+            <ul class="sub-menu ">
+                <li class="nav-item">
+                    <a class="nav-link" href="#section1">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#section2">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#section3">Socials</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" a href="mailto:webmaster@example.com">Contact</a>
+                </li>
+            </ul>
+        </span>
+    <span class="cls"></span>
+</div>
+
+<script>
+    $(document).ready(function() {
+        $(document).delegate('.open', 'click', function(event) {
+            $(this).addClass('oppenned');
+            event.stopPropagation();
+        })
+        $(document).delegate('body', 'click', function(event) {
+            $('.open').removeClass('oppenned');
+        })
+        $(document).delegate('.cls', 'click', function(event) {
+            $('.open').removeClass('oppenned');
+            event.stopPropagation();
+        });
+    });
+</script>
+
+        <div id="section1" class="container-fluid" style="padding-top:30;padding-bottom:270px">
+
+        <h1 id="head1" class="wow fadeInUp delay-1s">My name is Grant, and I am a web developer.</h1>
+        
+        <br>
+        <br>
+        
+        <h3 id="head3" class="wow fadeInUp delay-1s">Crafting quality responsive websites and exceptional user experience</h3>
+
+        </div>
+
+        <div data-scroll>
+        
+        <div id="section2" class="container-fluid" style="padding-top:90px;padding-bottom:100px">
+
+        <div>
+            <h1 id="head2" class="wow fadeIn delay-1s"> How can I help?</h1>
+        </div>
+
+            <br>
+            <br>
+
+        <h4 id="head4" class="wow fadeIn delay-1s">A front-end developer's role is to combine design and business logic to achieve a user-facing product. To do this successfully, a wide skill set is necessary to produce a quality user experience that leads to meeting business goals. With my experience I can: </h4>
+
+        <br>
+            <br>
+
+        <h4 id="head4" class="wow fadeIn delay-1s">Create responsive websites that work on a wide range of devices Assist with production of clean and functional design. Bridge communication gap between designers and developers. Integrate your website into an easy to use content management system</h4>
+
+            <br>
+            <br>
+
+        <div id="bars" class="wow fadeInDownBig">
+            <div class="bar" data-percent="80">
+                <h3>CSS</h3>
+                <canvas class="bar-circle" width="70" height="70"></canvas>
+            </div>
+            <div class="bar" data-percent="80">
+                <h3>HTML5</h3>
+                <canvas class="bar-circle" width="70" height="70"></canvas>
+            </div>
+            <div class="bar" data-percent="75">
+                <h3>JavaScript</h3>
+                <canvas class="bar-circle" width="70" height="70"></canvas>
+            </div>
+            <div class="bar" data-percent="60">
+                <h3>PHP</h3>
+                <canvas class="bar-circle" width="70" height="70"></canvas>
+            </div>
+            <div class="bar" data-percent="60">
+                <h3>Server</h3>
+                <canvas class="bar-circle" width="70" height="70"></canvas>
+            </div>
+        </div>
+        <script>
+                (function() {
+
+                    var Progress = function(element) {
+                    this.context = element.getContext("2d");
+                    this.refElement = element.parentNode;
+                    this.loaded = 0;
+                    this.start = 4.72;
+                    this.width = this.context.canvas.width;
+                    this.height = this.context.canvas.height;
+                    this.total = parseInt(this.refElement.dataset.percent, 10);
+                    this.timer = null;
+                    this.diff = 0;
+                    this.init();
+                };
+
+                Progress.prototype = {
+                    init: function() {
+                        var self = this;
+                        self.timer = setInterval(function() {
+                            self.run();
+                        }, 25);
+                    },
+                    run: function() {
+                        var self = this;
+
+                        self.diff = ((self.loaded / 100) * Math.PI * 2 * 10).toFixed(2);
+                        self.context.clearRect(0, 0, self.width, self.height);
+                        self.context.lineWidth = 10;
+                        self.context.fillStyle = "black";
+                        self.context.strokeStyle = "#ffb300";
+                        self.context.textAlign = "center";
+
+                        self.context.fillText(self.loaded + "%", self.width * .5, self.height * .5 + 2, self.width);
+                        self.context.beginPath();
+                        self.context.arc(35, 35, 30, self.start, self.diff / 10 + self.start, false);
+                        self.context.stroke();
+
+                        if (self.loaded >= self.total) {
+                            clearInterval(self.timer);
+                        }
+
+                        self.loaded++;
+                    }
+                };
+
+                var CircularSkillBar = function(elements) {
+                    this.bars = document.querySelectorAll(elements);
+                    if (this.bars.length > 0) {
+                        this.init();
+                    }
+                };
+
+                CircularSkillBar.prototype = {
+                    init: function() {
+                        this.tick = 25;
+                        this.progress();
+
+                    },
+                    progress: function() {
+                        var self = this;
+                        var index = 0;
+                        var firstCanvas = self.bars[0].querySelector("canvas");
+                        var firstProg = new Progress(firstCanvas);
+
+                        var timer = setInterval(function() {
+                            index++;
+
+                            var canvas = self.bars[index].querySelector("canvas");
+                            var prog = new Progress(canvas);
+
+                            if (index == self.bars.length) {
+                                clearInterval(timer);
+                            }
+
+                        }, self.tick * 100);
+
+                    }
+                };
+
+                document.addEventListener("DOMContentLoaded", function() {
+                    var circularBars = new CircularSkillBar("#bars .bar");
+                });
+
+            })();
+        </script>
+
+        </div>
+        </div>
+
+
+        <div id="section3" class="container-fluid" style="padding-top:140px;padding-bottom:10px">
+
+        <h1 id="head3" class="wow fadeInUp">Interact With Me</h1>
+
+            <br>
+
+        <h4 id="head4" class="wow fadeInUp">Let me help you bring your ideas to life. </h4>
+
+        <section>
+            <ul id="services" class="wow fadeInUp">
+                <li>
+                    <div class="facebook">
+                        <a href="https://www.facebook.com/grant.steele.568"target="_"blank">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                    <span>Facebook</span>
+                </li>
+                <li>
+                    <div class="twitter">
+                        <a href="https://twitter.com/grantrhoades"target="_"blank">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                    <span>Twitter</span>
+                </li>
+
+                <li>
+                    <div class="linkedin">
+                        <a href="https://www.linkedin.com/company/colorlib"target="_"blank">
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                    <span>LinkedIn</span>
+                </li>
+                <li>
+                    <div class="instagram">
+                        <a href="https://www.instagram.com/grant_rhoades/"target="_"blank">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                    <span>Instagram</span>
+                </li>
+                <li>
+                    <div class="github">
+                        <a href="https://github.com/GrantRhoades" target="_"blank">
+                            <i class="fa fa-github" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                    <span>Github</span>
+                </li>
+            </ul>
+
+        </section>
+        </div>
+<script src="js/wow.min_.js"></script>
+  <script>
+    new WOW().init();
+  </script>    
+</body>
+</html>
